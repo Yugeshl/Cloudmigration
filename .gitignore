@@ -1,0 +1,26 @@
+# Ignore shell and history files
+.bash*
+.viminfo
+.lesshst
+.mysql_history
+
+# Composer junk
+.cache/
+.config/
+.local/
+.terraform.d/
+
+# Logs
+*.log
+
+# PHP installer
+composer-setup.php
+
+# Ignore hidden system files
+*.swp
+*.swo
+
+.ssh/
+[safe]
+	directory = /var/www/kimai
+	directory = /home/ec2-user/kimai
